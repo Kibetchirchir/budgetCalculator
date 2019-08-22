@@ -1,0 +1,15 @@
+{
+  "name": "budgetcounter",
+  "version": "1.0.0",
+  "description": "This is a budget counter node application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chirchir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
