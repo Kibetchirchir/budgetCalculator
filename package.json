@@ -6,7 +6,7 @@
   "scripts": {
     "build-server": "babel ./ --out-dir dist --copy-files --ignore node_modules",
     "clean": "rm -rf dist && mkdir dist",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node src/app.js",
     "start:dev": "NODE_ENV=development DEBUG=log nodemon",
     "build": "npm run clean && npm run build-server && npm run copy-static-assets"
@@ -21,6 +21,7 @@
     "sequelize": "^5.16.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "jest": "^24.9.0"
   }
 }
